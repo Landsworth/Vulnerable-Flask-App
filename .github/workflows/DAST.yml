@@ -20,6 +20,6 @@ jobs:
         if: always()
         uses: mikepenz/action-junit-report@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ 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 }}
           report_paths: '**/dastardly-report.xml'
           require_tests: true
